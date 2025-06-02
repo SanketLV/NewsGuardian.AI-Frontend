@@ -16,3 +16,8 @@ interface NewsApiResponse {
   totalArticles: number;
   articles: Article[];
 }
+
+interface SingleNewsApiResponse {
+  article: Article;
+  source: string;
+}
